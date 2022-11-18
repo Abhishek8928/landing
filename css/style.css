@@ -27,7 +27,7 @@ ul li{
     font-size: 11px !important;
 }
 .py-lg-ff{
-    padding:100px 0px 20px 0px;
+    padding:100px 0px 40px 0px;
 }
 
 
@@ -115,5 +115,33 @@ ul li{
     }
     .text-align-c{
         text-align: center;
+    }
+    
+}
+
+@media (max-width:700px){
+
+    .second-container{
+        width:300px;
+        margin-bottom: 40px;
+    }
+    .first-container{
+        width:500px;
+        text-align: center;
+
+    }
+    .feature-wrap-1{
+        display:flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap:0.1rem;
+    }
+    .feature-wrap-2{
+        display:flex;
+        justify-content:center;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        gap:0.1rem;
     }
 }
