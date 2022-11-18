@@ -167,13 +167,13 @@ ul li{
     }
     .second-container{
         width:320px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     .first-container{
         text-align: center;
     }
-    .text-center-3{
-        text-align: center;
+    .justify{
+        justify-content: center;
     }
     
 }
