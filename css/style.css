@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 *{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -13,6 +13,10 @@ header{
     background-color: black;
     background-attachment: fixed;
     background-position: 50%;
+}
+
+.text-center-all{
+    text-align: center;
 }
 
 .link-pages{
@@ -85,25 +89,17 @@ ul li{
 
 
 /* contact form */
-
-.contact-form{
-    /* width:700px; */
-    border:1px solid #ccc;
-    border-radius: 8px;
-    padding:40px;
+.second-contact-form{
+    width:500px;
 }
-
-.contact-container{
-    display:flex;
-    justify-content: center;
+.first-contact-img{
+    width:500px;
 }
 .contact-wrapper{
-    display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap-reverse;
-}
-.contact-img{
-    width:140px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 #img-ani img{
     animation-name: animated-it;
@@ -185,8 +181,11 @@ ul li{
 
 @media (max-width:700px){
 
+    .display-none{
+        display:none;
+    }
     .second-container{
-        width:300px;
+        width:200px;
         margin-bottom: 40px;
     }
     .first-container{
@@ -225,9 +224,19 @@ ul li{
         width:100%;
     }
     .py-lg-ff{
-        padding:60px 0px 20px 0px;
+        padding:60px 0px 40px 0px;
     }
-    .contact-img{
-        width:80px;
+    .second-contact-form{
+        width:90%;
     }
+    .first-contact-img{
+        width:90%;
+    }
+    .contact-wrapper{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
 }
