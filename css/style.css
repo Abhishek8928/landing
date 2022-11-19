@@ -52,7 +52,7 @@ ul li{
 }
 
 .last-section{
-    width:340px;
+    width:450px;
 }
 
 /* feature */
@@ -74,7 +74,59 @@ ul li{
 .w-50{
     width:500px !important;
 }
-  
+
+
+/* contact form */
+
+.contact-form{
+    /* width:700px; */
+    border:1px solid #ccc;
+    border-radius: 8px;
+    padding:40px;
+}
+
+.contact-container{
+    display:flex;
+    justify-content: center;
+}
+.contact-wrapper{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap-reverse;
+}
+#img-ani img{
+    animation-name: animated-it;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animated-it {
+
+    50%{
+        transform: rotate(-6deg);
+    }
+    100%{
+        transform: rotate(6deg);
+    }
+}
+
+
+
+
+.more-data-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+.card-data{
+    border:1px solid #ccc;
+    border-radius: 8px;
+    padding:20px;
+    width:320px;
+}
+
+
 @media (max-width:1200px) {
     
     
@@ -143,5 +195,8 @@ ul li{
         flex-wrap: wrap-reverse;
         align-items: center;
         gap:0.1rem;
+    }
+    .text-center-all{
+        text-align: center;
     }
 }
