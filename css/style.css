@@ -207,4 +207,20 @@ ul li{
     .text-center-all{
         text-align: center;
     }
+    .contact-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    .w-50{
+        width:400px !important;
+    }
+    .feature-img{
+        width:100%;
+    }
+    .py-lg-ff{
+        padding:60px 0px 20px 0px;
+    }
 }
