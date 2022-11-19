@@ -102,11 +102,15 @@ ul li{
     justify-content:space-between;
     flex-wrap: wrap-reverse;
 }
+.contact-img{
+    width:140px;
+}
 #img-ani img{
     animation-name: animated-it;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
 
 @keyframes animated-it {
 
@@ -222,5 +226,8 @@ ul li{
     }
     .py-lg-ff{
         padding:60px 0px 20px 0px;
+    }
+    .contact-img{
+        width:80px;
     }
 }
