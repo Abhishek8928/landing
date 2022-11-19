@@ -44,6 +44,8 @@ ul li{
     width:520px;
 }
 
+
+
 .card-width{
     width:320px;
 }
@@ -54,6 +56,8 @@ ul li{
 .last-section{
     width:450px;
 }
+
+
 
 /* feature */
 
@@ -72,7 +76,11 @@ ul li{
     gap:3rem;
 }
 .w-50{
-    width:500px !important;
+  width:500px !important;
+}
+.add-bg-line{
+    background:url(/img/lines_f077faf53d.svg) no-repeat center;
+    background-attachment: fixed;
 }
 
 
