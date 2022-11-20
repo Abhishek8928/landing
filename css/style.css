@@ -30,8 +30,11 @@ ul li{
 .icons{
     font-size: 11px !important;
 }
+.py-md-ff{
+    padding:0px 0px 50px 0px;
+}
 .py-lg-ff{
-    padding:100px 0px 40px 0px;
+    padding:60px 0px 60px 0px;
 }
 
 
@@ -93,7 +96,7 @@ ul li{
     width:500px;
 }
 .first-contact-img{
-    width:500px;
+    width:700px;
 }
 .contact-wrapper{
     display:flex;
@@ -103,8 +106,24 @@ ul li{
 }
 #img-ani img{
     animation-name: animated-it;
-    animation-duration: 2s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.globe-ani{
+    animation-name: earth-rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes earth-rotate {
+    50%{
+       transform: rotate(180deg);
+    }
+    100%{
+        /* transform: rotate(180deg); */
+    }
 }
 
 
