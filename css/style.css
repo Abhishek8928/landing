@@ -40,7 +40,7 @@ ul li{
 
 .ud-con{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     /* flex-wrap: wrap; */
     align-items: center;
 
@@ -110,6 +110,7 @@ ul li{
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    
 }
 .globe-ani{
     animation-name: earth-rotate;
@@ -122,7 +123,6 @@ ul li{
 @keyframes earth-rotate {
     100%{
        transform: rotate(180deg);
-       overflow: hidden;
     }
     
 }
