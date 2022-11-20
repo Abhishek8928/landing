@@ -43,12 +43,13 @@ ul li{
     justify-content:space-between;
     /* flex-wrap: wrap; */
     align-items: center;
+
 }
 .first-container{
     width:600px;
 }
 .second-container{
-    width:520px;
+    width:600px;
 }
 
 
@@ -115,15 +116,15 @@ ul li{
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
+    
 }
 
 @keyframes earth-rotate {
-    50%{
-       transform: rotate(180deg);
-    }
     100%{
-        /* transform: rotate(180deg); */
+       transform: rotate(180deg);
+       overflow: hidden;
     }
+    
 }
 
 
