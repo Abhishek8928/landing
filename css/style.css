@@ -31,7 +31,7 @@ ul li{
     font-size: 11px !important;
 }
 .py-md-ff{
-    padding:0px 0px 50px 0px;
+    padding:30px 0px 50px 0px;
 }
 .py-lg-ff{
     padding:60px 0px 60px 0px;
@@ -88,7 +88,12 @@ ul li{
 }
 .add-bg-line{
     background:url(/img/lines_f077faf53d.svg) no-repeat center;
+    width:100%;
+    background-size: cover;
+    z-index: 999;
+    background-color: black;
     background-attachment: fixed;
+    background-position: 50%;
 }
 
 
@@ -114,16 +119,19 @@ ul li{
 }
 .globe-ani{
     animation-name: earth-rotate;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-fill-mode: both;
+    /* animation-fill-mode: both; */
     
 }
 
 @keyframes earth-rotate {
-    100%{
+    50%{
        transform: rotate(180deg);
     }
+    100%{
+        transform: rotate(-180deg);
+     }
     
 }
 
@@ -257,6 +265,9 @@ ul li{
         justify-content:center;
         align-items: center;
         flex-wrap: wrap;
+    }
+    .mb-sm{
+        margin-bottom: 0px;
     }
 
 }
