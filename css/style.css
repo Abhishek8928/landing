@@ -161,37 +161,6 @@ ul li{
     padding:20px;
     width:320px;
 }
-#member-section{
-    
-}
-
-.team-img{
-    width:200px;
-    height:200px;
-    border-radius: 100%;
-    object-fit:fill;
-}
-
-.team-member{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:2rem;
-    border:1px solid #ccc;
-    border-radius: 12px;
-    padding:10px;
-    width:500px;
-    padding:20px 10px 20px 10px;
-}
-
-.team-member-wrap{
-    display:flex;
-    justify-content: center;
-    gap:2rem;
-    flex-wrap: wrap;
-    margin: 20px 0px;
-    flex-wrap: wrap;
-}
 
 
 @media (max-width:1200px) {
